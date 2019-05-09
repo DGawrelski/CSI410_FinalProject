@@ -1,0 +1,43 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+label {
+	font-weight: bold;
+	width:100px;
+	font-size:14px;
+}
+.box {
+	border:#666666 solid 1px;
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+div.displaybox {
+	width: 600px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #333333;
+	text-align: left;
+}
+div.displayboxinner {
+	width: 600px;
+	text-align: left;
+}
+div.displayheader {
+	background-color: #333333;
+	color: #FFFFFF;
+	padding: 3px;
+}
+div.error {
+	font-size: 11px;
+	color: #cc0000;
+	margin-top: 10px;
+}
+div.defaults {
+	font-size: 15px;
+	color: #000000;
+	margin-top: 10px;
+}
