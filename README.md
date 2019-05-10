@@ -9,3 +9,21 @@ E-ZPass provides an alternative to paying for toll roads with physical cash by i
 
 If there exists a real service called Transit which operates in a similar fashion, it is purely a coincidence and any type of 
   copyright or trademark infractions are not intended in any way.
+
+
+
+
+
+
+
+
+Credit for the sources I used for some of my code:
+
+  Youtuber shad sluiter, with much of his 10-part video guide
+  https://www.youtube.com/watch?v=yAmXgDKu2go
+  
+  Awa Melvine's tutorials website
+  https://codewithawa.com/posts/admin-and-user-login-in-php-and-mysql-database
+  
+  Tutorialspoint
+  https://www.tutorialspoint.com/php/php_mysql_login.htm
