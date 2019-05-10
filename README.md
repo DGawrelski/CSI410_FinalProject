@@ -10,7 +10,7 @@ E-ZPass provides an alternative to paying for toll roads with physical cash by i
 If there exists a real service called Transit which operates in a similar fashion, it is purely a coincidence and any type of 
   copyright or trademark infractions are not intended in any way.
 
-
+A video demonstration can be found here : https://www.youtube.com/watch?v=NSdDEOScF4o
 
 
 
