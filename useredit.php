@@ -1,6 +1,9 @@
 <?php
 	include('session.php');
 	include('config.php');
+	
+	//This page allows a user to edit some details of their account
+	
 ?>
 <html>
 	<head>
@@ -63,6 +66,7 @@
 								echo "Payment method changed";
 							}
 						}
+						
 						echo "</form>";
 						echo "<label>Auto renew: $auto_renew</label>";
 						echo "<form action = '' method = 'post'>";

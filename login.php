@@ -4,6 +4,8 @@
    $error = "";
    $userid = "";
    
+   //This page serves as the homepage for our web app
+   
    if($_SERVER["REQUEST_METHOD"] == "POST") {
       // username and password sent from form 
       
@@ -59,12 +61,14 @@
 				
 				<div style = "margin:30px">
                
+					<!-- Login form for a user -->
 					<form action = "" method = "post">
 						<label>Username  : </label><input type = "text" name = "username" class = "box"/><br /><br />
 						<label>Password  : </label><input type = "password" name = "password" class = "box"/><br/><br />
 						<input type = "submit" value = " Submit "/><br />
 					</form>
 					
+					<!-- If there is an error, it will display here -->
 					<div class = "error"><?php echo $error; ?></div>
 					<div class = "defaults">Default Username: user</div>
 					<div class = "defaults">Default Password: pass</div>

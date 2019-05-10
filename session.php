@@ -2,9 +2,10 @@
    include('config.php');
    session_start();
    
+   //This creates a session for a user to stay logged in when browsing the pages
    $user_check = $_SESSION['login_user'];
    
-   $ses_sql = mysqli_query($db,"select username from test where username = '$user_check' ");
+   $ses_sql = mysqli_query($db,"select username from users where username = '$user_check' ");
    
    $row = mysqli_fetch_array($ses_sql,MYSQLI_ASSOC);
    

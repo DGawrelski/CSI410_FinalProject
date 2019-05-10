@@ -93,19 +93,20 @@
 						//$row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 						$count = mysqli_num_rows($result);
 						
-							
+						//Posts query results while we have at least one record
 						while($row = mysqli_fetch_assoc($result)){
 							$vid	  = $row['vehicleid'];
 							$inf_date = $row['infraction_date'];
 							$inf_type = $row['infraction_type'];
 							$outstand = $row['outstanding'];
-						
+							
 							echo "<div>";
 							echo "<dd>Vehicle ID: $vid</dd>";
 							echo "<dd>Infraction Date: $inf_date</dd>";
 							echo "<dd>Infraction Type: $inf_type</dd>";
 							echo "<dd>Outstanding: $outstand</dd>";
 							
+							//This helps present the information if there's more than one record
 							if($count > 1){
 								echo "<hr>";
 								$count -= 1;
@@ -115,12 +116,10 @@
 					?>
 			</div>
 		</div>
-		
 	</body>
 	<footer>
 		<h2><a href = "useredit.php">Edit Account Information</a></h2>
 		<h2><a href = "logout.php">Sign Out</a></h2>
-		
 	</footer>
    
 </html>
